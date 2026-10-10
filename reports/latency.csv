@@ -1,0 +1,5 @@
+model,single_row_ms,rows_per_sec_batch1000
+MLP (3-seed ensemble),13.43,50734
+XGBoost (tuned),4.09,133775
+RandForest (tuned),41.72,15702
+RandForest (baseline),38.52,15725

@@ -1,0 +1,6 @@
+{
+  "champion": "MLP (3-seed ensemble)",
+  "threshold": 0.511787474155426,
+  "threshold_max_f1": 0.7469642758369446,
+  "rule": "max recall with val precision >= 0.90"
+}

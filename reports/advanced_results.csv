@@ -1,0 +1,4 @@
+model,PR_AUC,ROC_AUC,best_thr,precision@0.5,recall@0.5,F1@0.5,TP@0.5,FP@0.5,FN@0.5,precision@best,recall@best,F1@best,TP@best,FP@best,FN@best,latency_ms
+MLP (best seed),0.8334,0.9635,0.9174,0.6742,0.8451,0.75,60,29,11,0.9048,0.8028,0.8507,57,6,14,8.99
+XGBoost,0.7354,0.9727,0.3765,0.8772,0.7042,0.7812,50,7,21,0.8571,0.7606,0.806,54,9,17,5.88
+RandForest + class_weight (baseline),0.8548,0.9469,0.2747,0.9643,0.7606,0.8504,54,2,17,0.9655,0.7887,0.8682,56,2,15,115.0

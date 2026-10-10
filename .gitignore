@@ -1,0 +1,14 @@
+venv/
+.venv/
+data/
+__pycache__/
+.ipynb_checkpoints/
+*.npy
+reports/experiments_raw_backup.csv
+.DS_Store
+models/*
+!models/preprocessor.joblib
+!models/xgb_tuned.joblib
+!models/feature_order.json
+!models/deploy_config.json
+!models/threshold.json

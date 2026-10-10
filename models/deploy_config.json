@@ -1,0 +1,8 @@
+{
+  "model_name": "XGBoost (tuned)",
+  "model_file": "models/xgb_tuned.joblib",
+  "threshold": 0.1473996490240097,
+  "threshold_rule": "max recall with val precision >= 0.90",
+  "elevated_cutoff": 0.07369982451200485,
+  "score_note": "risk_score is an uncalibrated model score (trained with class weighting), not a true fraud probability."
+}

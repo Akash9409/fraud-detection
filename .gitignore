@@ -1,0 +1,17 @@
+data/ !data/.gitkeep
+
+pycache/ .py[cod] $py.class
+
+.venv/ venv/ env/
+
+.env .env.* !.env.example .pem .key
+
+.ipynb_checkpoints/
+
+mlruns/ mlartifacts/ logs/ *.log
+
+.DS_Store Thumbs.db .tmp .bak
+
+.pytest_cache/ .coverage htmlcov/
+
+.vscode/ .idea/
